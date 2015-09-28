@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .whatido-skill-code {
   background-image: url(../img/skill-code.png);
-  
 }
 
 .whatido-skill-design {
@@ -106,4 +105,44 @@ h1, h2, h3, h4, h5, h6 {
 
 .whatido-skill-product {
   background-image: url(../img/skill-product.png);
+}
+
+.education-experience-list {
+  list-style: none;
+}
+.education-experience-list li {
+  margin: 50px;
+}
+.education-experience-list li img {
+  float: left;
+  width: 180px;
+  margin-right: 20px;
+}
+.education-experience-list-description {
+  overflow: hidden;
+  text-align: left;
+}
+
+.photos {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+.photos-list {
+  list-style: none;
+  padding: 0;
+  margin: 50px;
+}
+
+.photos-list li {
+  float: left;
+  width: 25%;
+  display: inline-block;
+  padding: 10px;
+}
+.photos-list li img {
+  width: 100%;
 }
