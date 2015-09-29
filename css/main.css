@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,*:before,*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -16,6 +16,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-weight: 300;
@@ -101,28 +102,32 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .whatido-skill {
   float: left;
   width: 33.3%;
   padding-top: 100px;
   text-align: center;
-  background-repeat: no-repeat;
-  background-position: center top;
 }
 .whatido-skill-code {
   background-image: url(../img/skill-code.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .whatido-skill-design {
   background-image: url(../img/skill-design.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .whatido-skill-product {
   background-image: url(../img/skill-product.png);
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .education-experience-list li {
@@ -209,5 +214,53 @@ h1, h2, h3, h4, h5, h6 {
   }
   .whatido-skill p {
     font-size: 14px;
+  }
+  .whatido-skill-list {
+    margin: 0px;
+    padding: 1px;
+  }
+  .whatido-skill {
+    width: 100%;
+    display: block;
+  }
+  .education-experience-list {
+    padding: 1px;
+    margin: 0;
+  }
+  .education-experience-list li img {
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  .education-experience span {
+    display: block;
+  }
+  .photos-list {
+    padding-left: 0;
+  }
+  .photos-list li {
+    width: 100%;
+    float: none;
+  }
+
+  .get-in-touch-list {
+    margin: 0;
+    padding: 1px;
+  }
+
+  .get-in-touch-list li {
+    padding: 0;
+    width: 50%;
+  }
+  .get-in-touch-list img {
+    width: 80%
+  }
+  .contact form {
+    width: 100%;
+  }
+
+  .contact form label {
+    position: static;
   }
 }
